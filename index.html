@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- sheryjs css cdn -->
+  <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./src/output.css">
+  <link rel="stylesheet" href="project.css">
+
+</head>
+
+<body>
+  <!-- <div id="cursor"></div>
+  <div id="cursor-blur"></div> -->
+  <div id="main">
+    <header class="header">
+      <a href="#" class="logo magnet">Ritesh</a>
+      <div class="navbar">
+        <a href="#" style="--i: 1" class="active">Home</a>
+        <a href="#about" style="--i: 2">About</a>
+        <a href="#skill" style="--i: 3">Skill</a>
+        <a href="#service" style="--i: 4">Services</a>
+        <a href="#" style="--i: 5">Projects</a>
+        <a href="#contact" style="--i: 6">Contact</a>
+        <i class="ri-menu-line"  onclick="showmenu()"></i>
+      </div>
+    </header>
+
+    <div class="drop-down">
+      <nav class="drop-navigation">
+          <span class="close" onclick="removewmenu()">&times;</span>
+          <ul>
+            <a href="#"><li>Home</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#skill"><li>Skills</li></a>
+            <a href="#service"><li>Services</li></a>
+            <a href="#"><li>Projects</li></a>
+            <a href="#contact"><li>Contact</li></a>
+          </ul>
+      </nav>
+  </div>
+
+
+    <section class="home">
+      <div class="home-content">
+        <div class="bounding">
+          <h3 class="hello elem">Hello, It's Me</h3>
+        </div>
+        <div class="bounding">
+          <h1 class="elem">Ritesh Kumar</h1>
+        </div>
+        <div class="bounding">
+          <h3 class="texth3 elem">and I'm a <span class="text"></span></h3>
+        </div>
+        <div class="footerfirst">
+          <p>
+            I am a self motivated individual with a strong interest in learning and growth, particularly in technology
+          </p>
+
+
+          <div class="btndiv">
+            <a href="myresume.pdf" target="_blank" class="btn-box magnet">Download Resume</a>
+            <a href="#about" class="btn-box magnet">More About Me</a>
+          </div>
+        </div>
+      </div>
+      <div class="home-img  footerfirst">
+        <img src="Adobe Express - file.png" class="magnet" alt="">
+      </div>
+
+    </section>
+
+    <section id="about">
+      <!-- <div class="aboutimg"></div> -->
+      <img src="ritesh2.jpg" alt="" class="imagesabout" />
+      <div id="textabout">
+        <h5>(About me)</h5>
+        <p>
+          I am proficient in Product Designing, Web designing, Web development, Native Application development. I know
+          the technologies like, HTML, CSS, Bootstrap, Tailwind, JavaScript, Node.js, Express.js, MySQL, and MongoDB. my
+          expertise extends to version control systems (Git, GitHub) and essential MS Office tools like Word,
+          PowerPoint, and Excel. Beyond my technical capabilities, i have strong soft skills, such as critical thinking,
+          data-driven decision-making, and project ownership.
+        </p>
+        <div class="btndiv ">
+          <a href="#contact" class="btn-box magnet">lets talk</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="skill">
+   <div class="container">
+        <div class="skills-header">
+            <h1 class="skills-title">My Skills</h1>
+            <div class="title-underline"></div>
+        </div>
+
+        <div class="skills-grid">
+            <!-- Programming Languages -->
+            <div class="skill-category">
+                <h2 class="category-title">Programming Languages</h2>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">C</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-percentage="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">C++</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-percentage="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Java</span>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-percentage="75"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Development -->
+            <div class="skill-category">
+                <h2 class="category-title">Web Development</h2>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">HTML</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-percentage="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">CSS</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-percentage="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-percentage="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Node.js</span>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-percentage="70"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Express.js</span>
+                        <span class="skill-percentage">65%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-percentage="65"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">MySQL</span>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-percentage="75"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Skills -->
+            <div class="skill-category">
+                <h2 class="category-title">Other Skills</h2>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">MS Office</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-percentage="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Git & GitHub</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-percentage="80"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="project">
+      <div class="container">
+        <section class="projects-section">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">
+                    Explore my latest work and creative solutions. Each project represents a unique challenge and learning experience.
+                </p>
+            </div>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        🌐
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">
+                            A full-stack e-commerce solution with user authentication, payment integration, and admin dashboard.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link link-demo">Live Demo</a>
+                            <a href="#" class="project-link link-code magnet">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        📱
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Fitness Tracker App</h3>
+                        <p class="project-description">
+                            Cross-platform mobile app for tracking workouts, nutrition, and fitness goals with social features.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Redux</span>
+                            
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link link-demo">App Store</a>
+                            <a href="#" class="project-link link-code magnet">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        📊
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Analytics Dashboard</h3>
+                        <p class="project-description">
+                            Real-time analytics dashboard with interactive charts, data visualization, and reporting features.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link link-demo">Live Demo</a>
+                            <a href="#" class="project-link link-code magnet">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                
+
+            </div>
+
+            <div class="no-projects" id="noProjects">
+                <p>No projects found for the selected category.</p>
+            </div>
+        </section>
+    </div>
+    </section>
+
+    <section class="services" id="service">
+      <h1 class="servicesh1" style="font-size: 40px;">Services</h1>
+      <ul class="cards">
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="uiux.avif"></div>
+            <div class="card_content">
+              <h2 class="card_title">Enhance Your Digital Experience with Expert UI/UX Design!</h2>
+              <p class="card_text">📱 Seamless User Experience <br> 🎯 Custom Designs for Websites & Apps</p>
+              <p class="contact">📩 Transform your ideas into stunning, user-friendly designs! Contact us today!</p>
+              <a href=""><button class="btn card_btn magnet">Read More</button></a>
+            </div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="webdev.jpg"></div>
+            <div class="card_content">
+              <h2 class="card_title">Professional Website Development Services! 🌐🚀</h2>
+              <p class="card_text">⚡ Fast & Secure Websites<br> ⚡ Fast & Secure Websites <br> </p>
+              <p class="contact">📩 Bring your vision to life with a stunning website! Contact us today!</p>
+              <a href="">
+                <button class="btn card_btn magnet">Read More</button>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="appdev.avif"></div>
+            <div class="card_content">
+              <h2 class="card_title">Expert App Development Services! 📱🚀</h2>
+              <p class="card_text">✅ Custom & Scalable Solutions <br>
+                ⚡ Fast & User-Friendly Apps <br>
+                🎯 Android & iOS Development</p>
+              <p class="contact">📩 Turn your ideas into powerful mobile apps! Contact us today!</p>
+              <a href="">
+                <button class="btn card_btn magnet">Read More</button>
+              </a>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+    <!-- <section id="project">
+      
+    </section> -->
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <h1>contact us</h1>
+        </div>
+        <div class="row">
+          <h4 style="text-align:center">We'd love to hear from you!</h4>
+        </div>
+        <form onsubmit="sendMail(); return false;" id="contactForm">
+          <div class="row input-container">
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <input type="text" id="name" required />
+                <label>Name</label>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="styled-input">
+                <input type="email" id="email" required />
+                <label>Email</label>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="styled-input" style="float:right;">
+                <input type="text" id="subject" required />
+                <label>subject</label>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <textarea id="message" required></textarea>
+                <label>Message</label>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <button type="submit" class="btn-lrg submit-btn magnet">Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+     <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Ritesh<span>Kumar</span></h2>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/ritesh-kumar-05b08a247/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Ritesh-49" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/Ritesh-49" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/Ritesh-49" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:riteshk2323@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 202 Ritesh Kumar. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--  Gsap is needed for Basic Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Scroll Trigger is needed for Scroll Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Three.js is needed for 3d Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"
+      integrity="sha512-auFmPm+de880vk/c+bgBmuOnQ7BM28z7zPWmepVgX8737t75OHZjElOnQqERwP8cE4DIyCJ+gb1kE0b/eLWcnA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+
+
+    <!-- locomotive for smooth scrolling -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script> -->
+
+    <!-- Email js for sending email -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "1IggZutWGzSBDTu6C",
+        });
+      })();
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
