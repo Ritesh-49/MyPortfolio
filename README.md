@@ -1,5 +1,5 @@
 # Ritesh Kumar - Personal Portfolio
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/Ritesh-49/MyPortfolio)
+<!-- [![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/Ritesh-49/MyPortfolio) -->
 
 This repository contains the source code for my personal portfolio website. It is a single-page application designed to showcase my skills, projects, and professional background in a visually engaging and interactive manner.
 
